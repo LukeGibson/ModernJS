@@ -93,14 +93,78 @@
 
 // -- Reference to UI -- //
 
-const ul = document.querySelector('.people');
+// const ul = document.querySelector('.people');
 
-const people = ['luke', 'sam', 'jake', 'joe'];
-let html = ``;
+// const people = ['luke', 'sam', 'jake', 'joe'];
+// let html = ``;
 
-people.forEach((person) => {
-  html += `<li style="color: orange">${person}</li>`;
-});
+// people.forEach((person) => {
+//   html += `<li style="color: orange">${person}</li>`;
+// });
 
-console.log(html)
-ul.innerHTML = html;
+// console.log(html)
+// ul.innerHTML = html;
+
+// -- Objects -- //
+
+// let user = {
+//   name: 'Luke',
+//   age: 23,
+//   email: 'luke@gmail.com',
+//   location: 'Brigton',
+//   blogs: [
+//     { title: 'squash is great', likes: 30 },
+//     { title: 'guitar for starts', likes: 121 },
+//   ],
+//   login: () => console.log('the user logged in'),
+//   logout: () => console.log('the user logged out'),
+//   logBlogs() {
+//     console.log('this user has written the following blogs:');
+//     this.blogs.forEach(blog => console.log(blog.title, blog.likes));
+//   },
+// };
+
+// console.log(user);
+
+// console.log(user.name);
+// console.log(user['name']);
+
+// const myKey = 'name';
+// user[myKey] = 'test';
+
+// console.log(typeof(user));
+
+// user.login();
+// user.logout();
+// user.logBlogs();
+
+// -- Math Object -- //
+
+// console.log(Math);
+// console.log(Math.PI);
+
+// const area = 7.7;
+// console.log(Math.round(area));
+// console.log(Math.floor(area));
+// console.log(Math.ceil(area));
+// console.log(Math.trunc(area));
+
+// const random = Math.random();
+// console.log(random);
+
+// -- Primitive vs Reference Types -- //
+
+let scoreOne = 50;
+let scoreTwo = scoreOne;
+
+console.log(scoreOne, scoreTwo);
+scoreOne = 100;
+console.log(scoreOne, scoreTwo);
+
+
+const userOne = {name: 'luke', age: 23};
+const userTwo = userOne;
+
+console.log(userOne, userTwo);
+userOne.age = 32;
+console.log(userOne, userTwo);
