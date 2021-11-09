@@ -4,9 +4,14 @@ body {
   margin: 0;
 }
 
-h1 {
-  text-align: center;
-  background-color:floralwhite;
-  color:darkseagreen;
-  padding: 20px 0px;
+.error {
+  padding: 10px;
+  color: crimson;
+  border: 1px dotted crimson;
+}
+
+.success {
+  padding: 10px;
+  color: limegreen;
+  border: 1px dotted limegreen;
 }

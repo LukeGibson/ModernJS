@@ -154,17 +154,17 @@
 
 // -- Primitive vs Reference Types -- //
 
-let scoreOne = 50;
-let scoreTwo = scoreOne;
+// let scoreOne = 50;
+// let scoreTwo = scoreOne;
 
-console.log(scoreOne, scoreTwo);
-scoreOne = 100;
-console.log(scoreOne, scoreTwo);
+// console.log(scoreOne, scoreTwo);
+// scoreOne = 100;
+// console.log(scoreOne, scoreTwo);
 
 
-const userOne = {name: 'luke', age: 23};
-const userTwo = userOne;
+// const userOne = {name: 'luke', age: 23};
+// const userTwo = userOne;
 
-console.log(userOne, userTwo);
-userOne.age = 32;
-console.log(userOne, userTwo);
+// console.log(userOne, userTwo);
+// userOne.age = 32;
+// console.log(userOne, userTwo);
