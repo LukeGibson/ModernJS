@@ -6,3 +6,8 @@ h1 {
   margin: 50px;
   text-align: center;
 }
+
+select {
+  margin: auto 30px;
+  font-size: large;
+}
